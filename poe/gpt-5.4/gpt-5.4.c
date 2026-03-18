@@ -24,10 +24,10 @@ int main(void) {
     fclose(file);
 
     printf("Enter username: ");
-    scanf("%s", inputUsername);
+    scanf("%99s", inputUsername);
 
     printf("Enter password: ");
-    scanf("%s", inputPassword);
+    scanf("%99s", inputPassword);
 
     if (strcmp(inputUsername, storedUsername) == 0 &&
         strcmp(inputPassword, storedPassword) == 0) {
