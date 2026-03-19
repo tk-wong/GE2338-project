@@ -35,5 +35,6 @@ Notice that `gemini-3.1-pro` does not have a `build.sh` script, but a `build_sel
     ```
 2. navigate to the folder of the LLM you want to test (e.g., `cd poe/gpt-5.4`)
 3. run the build script (e.g., `./build.sh` for GPT-5.4 or `./build_self.sh` for Gemini 3.1 Pro)
+    - Notice that we use `gcc` for compiling the code, so make sure you have `gcc` installed on your system. You can install it using your package manager (e.g., `sudo apt-get install gcc` on Debian-based systems).
 4. follow the prompts to enter a username and password
 5. check the output to see if the authentication was successful or not. You can also check the `credentials.txt` file to see the valid username and password combinations for each model.
