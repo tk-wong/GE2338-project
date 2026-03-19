@@ -26,7 +26,7 @@ This repository contains the code for the GE2338 project. It includes the genera
 
 The `poe` folder contains subfolders for each LLM (because they are called from the [Poe](https://poe.com/) platform), and each subfolder contains the generated code and a credentials file with the format suitable for the generated code. The `build.sh` script in each folder can be used to compile the C code for that specific model. The name of the subfolders and the C files indicate which LLM was used to generate the code.
 
-Notice that `gemini-3.1-pro` does not have a `build.sh` script, but a `build_self.sh` script, which compiles and runs the code in one step. This is because the generated code for Gemini 3.1 Pro is does not contain the command to compile the code, so we need to do it manually, and the `build_self.sh` script created by ourselves help to compile and run the code.
+Notice that `gemini-3.1-pro` does not have a `build.sh` script, but a `build_self.sh` script, which compiles and runs the code in one step. This is because the generated response for Gemini 3.1 Pro is does not contain the command to compile the code, so we need to do it manually, and the `build_self.sh` script created by ourselves help to compile and run the code.
 
 # Testing the code
 1. clone from the repository 
